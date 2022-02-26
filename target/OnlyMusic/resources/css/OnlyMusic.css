@@ -1,0 +1,282 @@
+@charset "ISO-8859-1";
+
+/* Style navigation links */
+a:link, a:visited {
+  background-color: powderblue;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block-inline;
+  justify-content:center;
+  align-items:center;
+  border-radius: 25px;
+  
+}
+
+/* Add background colour to jsp's */
+body{
+	background-color:AliceBlue;
+}
+
+/* set box sizing  value*/
+* {
+  box-sizing: border-box;
+}
+/* Add style and image to login form */
+.loginform{
+	 /* The image used */
+  background-image: url("/OnlyMusic/resources/images/musicObjs.jpg");
+
+  /* Control the height of the image */
+  min-height: 360px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* Add style and image to registration form */
+.regForm{
+  /* The image used */
+  background-image: url("/OnlyMusic/resources/images/musicGraf.png");
+
+  /* Control the height of the image */
+  min-height: 520px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	
+}
+
+/* Add style and image to add Track form */
+.addTrackForm{
+  /* The image used */
+  background-image: url("/OnlyMusic/resources/images/musicGraf.png");
+
+  /* Control the height of the image */
+  min-height: 690px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	
+}
+
+/*Style find customer form */
+.findCustomerForm{
+   /* The image used */
+  background-image: url("/OnlyMusic/resources/images/data.jpg");
+
+  /* Control the height of the image */
+  min-height: 420px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding:125px;
+	
+}
+/* Add home page image and set the required style attributes for it*/
+.homePageimgBand{
+  /* The image used */
+  background-image: url("/OnlyMusic/resources/images/music1.jpg");
+
+  /* Control the height of the image */
+  height: 380px;
+  width:100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.userHomePageImage{
+	 /* The image used */
+  background-image: url("/OnlyMusic/resources/images/musicNotes.jpg");
+
+  /* Control the height of the image */
+  height: 380px;
+  width:100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	
+}
+.tracklistImage{
+  /* The image used */
+  background-image: url("/OnlyMusic/resources/images/headphones.jpg");
+
+  /* Control the height of the image */
+  height: 200px;
+  width:100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	
+}
+
+.dataImg{
+  /* The image used */
+  background-image: url("/OnlyMusic/resources/images/data.jpg");
+
+  /* Control the height of the image */
+  height: 120px;
+  width:100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	
+}
+
+/* Set Form container attributes to be used across all forms */
+.formContainer{
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+ input[type= text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+/* Style input fields */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+/* Set opacity attribute for submit button */
+.btn:hover {
+  opacity: 1;
+}
+
+/* Style logout button*/
+.logoutBtn{
+  position: absolute;
+  right: 65px;
+  background-color: #04AA6D;
+  color: AliceBlue;
+  padding: 16px 20px;
+  border:none;
+  cursor: pointer;
+  width: 90px;
+  opacity: 0.9;
+}
+
+/* Set opacity on hover on logout button*/
+.logoutBtn.hover{
+	opacity: 1;
+}
+
+/* Align text to the centre of the page within section's */
+section{
+	text-align:center;
+}
+/* Set font style with the paragraph's */
+p{
+	font-family:Helvetica,Georgia ,serif, "san-serif";
+	font-size:16px;
+}
+
+/* Set the font style to be displayed when displaying information back to users */
+i{
+	font-family:Helvetica,Georgia ,serif, "san-serif";
+	font-size:18px;
+	font-style:italic;
+	color:red;
+}
+
+/* Set header 1 font style*/
+h1{
+	font-size:40px;
+	font-family: Helvetica,Georgia ,serif, "san-serif";
+	color:BurlyWood;
+	text-align:center;
+}
+
+/* Set header 2 font style*/
+h2{
+	font-size:25px;
+	font-family: Helvetica ,Georgia ,serif, "san-serif";
+	color:BurlyWood;
+	text-align:center;
+}
+
+/* Set header 3 font style*/
+h3{
+	font-size:15px;
+	font-family: Helvetica ,Georgia ,serif, "san-serif";
+	color:Black;
+	text-align:center;
+}
+
+/* add style to the spring forms used */
+form:form{
+	padding:16px;
+	background-color:Linen;
+	font-size:15px;
+	font-family: Helvetica ,Georgia ,serif, "san-serif";
+	box-sizing:border-box;
+}
+
+/* Add style to all tables used*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+/* Add style to tables data and head*/
+td,th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+/* Add style to tables rows*/
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* Set centre of page attributes*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
