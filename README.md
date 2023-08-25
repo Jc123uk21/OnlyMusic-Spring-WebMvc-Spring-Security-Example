@@ -8,3 +8,7 @@ The theme for the project is set around a media web application which allows it'
 application's database on their device, the application is also accessed by an administrational team to conduct administrational duties over the application.
 Both sets of users share a single login facility where access to the various system resources are determined by the individual user's access role setout
 within the security configuration of the application.
+
+
+![Restful Api diagram](https://github.com/Jc123uk21/OnlyMusic-Spring-WebMvc-Spring-Security-Example/assets/92167481/2df1d5cb-22a0-4f0b-a0f1-0fc5efc94f2f)
+
